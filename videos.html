@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css" integrity="sha512-HHsOC+h3najWR7OKiGZtfhFIEzg5VRIPde0kB0bG2QRidTQqf+sbfcxCTB16AcFB93xMjnBIKE29/MjdzXE+qw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style/videos.css">
+  <title>TelhaTube</title>
+</head>
+
+
+<body id="top">
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <div class="header">
+    <div class="logo">
+        <h2>Telhacast</h2>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="pagina.html">Início</a></li>
+            <li><a href="jornal.html">Jornal</a></li>
+            <li><a href="podcast.html">Podcast</a></li>
+        </ul>
+        <div class="bar">
+            <i class="open fa-solid fa-bars-staggered"></i>
+
+        </div>
+    </nav>
+  </div>
+
+  <div class="saii">
+    <video class="mural" id="mural" controls>
+      <source src="img/mural1.mp4" >
+  </video>
+    <div class="descricao">
+      <h2 id="h2">Episódio 1</h2>
+      <i id="i"></i>
+      <div class="duracao">
+        <div class="barra">
+          <progress value="0" ></progress>
+          <div class="ponto"></div>
+        </div>
+        <div class="tempo">
+        
+        </div>
+
+      </div>
+
+      <div class="foi">
+        <button type="button" class="login" id = "btnlogar" >Ouça apenas em áudio</button>
+
+      </div>
+      
+      <audio id="src" src="audio/short-5-209448.mp3"></audio>
+      
+      
+  </div>
+</div>
+  <script src="videos.js"></script>
+</body>
+</html>

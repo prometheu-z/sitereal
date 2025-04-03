@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css" integrity="sha512-HHsOC+h3najWR7OKiGZtfhFIEzg5VRIPde0kB0bG2QRidTQqf+sbfcxCTB16AcFB93xMjnBIKE29/MjdzXE+qw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/index.css">
+    <title>Diario da marginal</title>
+</head>
+<header>
+    <div class = "logo">
+        <h1>Diário da Marginal</h1>
+        </div>
+</header>
+
+<body>
+    <main class="container">
+        <form class="register-form" id="register-form">
+            <div class="ent">
+                <h2>Entrar</h2>
+                <p>
+                    Se você já tem cadastro insira as credenciais para acessar o sistema
+                </p>
+            </div>
+            <div class="input-box">
+                <input class= "mat" id = "Matricula"  placeholder="Matricula (TN00000)" type="text" autocomplete="off" >
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="input-box">
+                <input type="password" id = "senha"  placeholder="Senha" >
+                <div class="error" id="erro">Dados incorretos</div>
+                <i class="fa-solid fa-lock"></i>
+            </div>
+        
+
+                <button type="button" class="login" id = "btnlogar" >Login</button>
+            
+        </form>
+        <form class="register-form1" id="register-form1">
+            <h2>Não tem conta? registre-se</h2>
+                <button type="submit" class="login1" id = "btnlogar1" >Registrar-se</button>
+
+        </form>
+        <form class="fale" id ="fale">
+            <div>
+                <a href="https://saintgobain-pwa.dialog.cm/contact-us">
+                    <h2>Fale conosco</h2>
+                </a>
+            </div>
+        </form>
+        
+        
+    </main>
+    <script src="dados.js"></script>
+    <script src="index.js"></script>
+</body>
+    
+</html>
